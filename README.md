@@ -1,4 +1,4 @@
-A simple Java GUI tool that uses the [Amitools](https://pypi.org/project/amitools/) Python package via GraalPy to list ADF images.
+A simple Java GUI tool that uses the [Amitools](https://pypi.org/project/amitools/) Python package via GraalPy to list ADF images dropped on to the Window.
 
 Run the Java file for your platform via JBang, e.g. on Linux
 ```shell
