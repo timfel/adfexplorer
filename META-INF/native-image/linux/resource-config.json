@@ -1,0 +1,700 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/graalvm/org.graalvm.polyglot/version\\E"
+  }, {
+    "pattern":"\\QMETA-INF/graalvm/org.graalvm.truffle/version\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/include.sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/libgraalpy.sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/libpython.sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/linux/amd64/native.sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/nfi-native/libnfi/linux/amd64/sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/ni.sha256\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.graal.python.builtins.PythonBuiltins\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.TruffleLanguage$Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.TruffleRuntimeAccess\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.impl.TruffleLocator\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.instrumentation.TruffleInstrument$Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.instrumentation.provider.TruffleInstrumentProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.library.DefaultExportProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.library.provider.DefaultExportProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.object.LayoutFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.provider.InternalResourceProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/com.oracle.truffle.api.provider.TruffleLanguageProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.graalvm.home.HomeFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.graalvm.polyglot.impl.AbstractPolyglotImpl\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/PythonBuiltins.class\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenABC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenCODECS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenCOLLECTIONS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenCOLLECTIONS_ABC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenCOPYREG.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ALIASES.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ASCII.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_BASE64_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_BIG5.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_BIG5HKSCS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_BZ2_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CHARMAP.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP037.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1006.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1026.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1125.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1140.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1250.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1251.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1252.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1253.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1254.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1255.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1256.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1257.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP1258.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP273.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP424.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP437.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP500.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP720.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP737.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP775.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP850.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP852.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP855.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP856.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP857.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP858.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP860.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP861.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP862.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP863.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP864.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP865.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP866.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP869.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP874.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP875.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP932.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP949.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_CP950.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_EUC_JISX0213.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_EUC_JIS_2004.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_EUC_JP.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_EUC_KR.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_GB18030.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_GB2312.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_GBK.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_HEX_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_HP_ROMAN8.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_HZ.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_IDNA.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP_1.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP_2.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP_2004.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP_3.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_JP_EXT.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO2022_KR.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_1.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_10.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_11.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_13.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_14.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_15.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_16.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_2.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_3.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_4.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_5.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_6.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_7.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_8.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ISO8859_9.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_JOHAB.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_KOI8_R.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_KOI8_T.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_KOI8_U.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_KZ1048.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_LATIN_1.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_ARABIC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_CROATIAN.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_CYRILLIC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_FARSI.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_GREEK.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_ICELAND.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_LATIN2.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_ROMAN.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_ROMANIAN.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MAC_TURKISH.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_MBCS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_OEM.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_PALMOS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_PTCP154.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_PUNYCODE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_QUOPRI_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_RAW_UNICODE_ESCAPE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ROT_13.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_SHIFT_JIS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_SHIFT_JISX0213.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_SHIFT_JIS_2004.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_TIS_620.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UNDEFINED.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UNICODE_ESCAPE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_16.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_16_BE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_16_LE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_32.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_32_BE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_32_LE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_7.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_8.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UTF_8_SIG.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_UU_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENCODINGS_ZLIB_CODEC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenENUM.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenFROZEN_ONLY.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenFUNCTOOLS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGENERICPATH.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_BUILTINS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_FUNCTION.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_JAVA.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_PIP_HOOK.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_SULONG_SUPPORT.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY_UNICODEDATA.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY__SRE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY__STRUCT.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY__SYSCONFIG.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY__WEAKREF.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenGRAALPY___GRAALPYTHON__.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenHEAPQ.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenIMPORTLIB__BOOTSTRAP.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenIMPORTLIB__BOOTSTRAP_EXTERNAL.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenIO.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenKEYWORD.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenLOCALE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenNTPATH.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenOPERATOR.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenOS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenPOSIXPATH.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenRE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenREPRLIB.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenRLCOMPLETER.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenSITE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenSRE_COMPILE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenSRE_CONSTANTS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenSRE_PARSE.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenSTAT.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenTYPES.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/FrozenZIPIMPORT.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen_COLLECTIONS_ABC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen_PY_ABC.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen_SITEBUILTINS.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen_SYSCONFIGDATA.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen_WEAKREFSET.bin\\E"
+  }, {
+    "pattern":"\\Qcom/oracle/graal/python/builtins/objects/module/Frozen__HELLO__.bin\\E"
+  }, {
+    "pattern":"\\Qgraalpy_versions\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/swt/internal/gtk/swt_functional_gtk_3_20.css\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/swt/internal/gtk/swt_theming_fixes_gtk_3_20.css\\E"
+  }, {
+    "pattern":"\\Qorg/eclipse/swt/internal/gtk/swt_theming_fixes_gtk_3_24_5.css\\E"
+  }, {
+    "pattern":"\\Qorg/graalvm/shadowed/com/ibm/icu/ICUConfig.properties\\E"
+  }, {
+    "pattern":"\\Qorg/graalvm/shadowed/com/ibm/icu/impl/data/icudt74b/uprops.icu\\E"
+  }, {
+    "pattern":"\\Qvfs/fileslist.txt\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/bin/pyvenv.cfg\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/_distutils_hack/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/_distutils_hack/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/_distutils_hack/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/_distutils_hack/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/_distutils_hack/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSBitmap.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSDir.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSFile.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSNode.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSVolDir.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ADFSVolume.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/DosType.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/FSError.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/FSString.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/FileName.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/MetaInfo.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/ProtectFlags.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/RootMetaInfo.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/TimeStamp.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSBitmap.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSDir.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSFile.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSNode.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSVolDir.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ADFSVolume.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/DosType.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/FSError.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/FSString.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/FileName.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/MetaInfo.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/ProtectFlags.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/RootMetaInfo.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/TimeStamp.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/ADFBlockDevice.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/BlkDevFactory.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/BlockDevice.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/DiskGeometry.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/HDFBlockDevice.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/ImageFile.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/PartBlockDevice.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/RawBlockDevice.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/ADFBlockDevice.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/BlkDevFactory.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/BlockDevice.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/DiskGeometry.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/HDFBlockDevice.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/ImageFile.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/PartBlockDevice.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/RawBlockDevice.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/blkdev\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/BitmapBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/BitmapExtBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/Block.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/BootBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/CommentBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/DirCacheBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/EntryBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/FileDataBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/FileHeaderBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/FileListBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/RootBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/UserDirBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/BitmapBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/BitmapExtBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/Block.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/BootBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/CommentBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/DirCacheBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/EntryBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/FileDataBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/FileHeaderBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/FileListBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/RootBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/UserDirBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/FSHeaderBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/LoadSegBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/PartitionBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/RDBlock.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__pycache__/FSHeaderBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__pycache__/LoadSegBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__pycache__/PartitionBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__pycache__/RDBlock.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block/rdb\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/block\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/FileSystem.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/Partition.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/RDisk.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__pycache__/FileSystem.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__pycache__/Partition.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__pycache__/RDisk.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs/rdb\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/fs\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/BlkDevTools.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/ByteSize.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/HexDump.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__init__.graalpy240-310-native-x86_64-linux.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__init__.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__init__.pyd\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__init__.so\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__pycache__/BlkDevTools.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__pycache__/ByteSize.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__pycache__/HexDump.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__pycache__/__init__.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/__pycache__/slotarray.graalpy240-310.pyc\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util/slotarray.py\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools/util\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/amitools\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages/distutils-precedence.pth\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/lib/python3.10/site-packages\\E"
+  }, {
+    "pattern":"\\Qvfs/venv/pyvenv.cfg\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt74b/nfkc.nrm\\E"
+  }, {
+    "pattern":"java.base:\\Qsun/net/www/content-types.properties\\E"
+  }, {
+    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/query/view.ini\\E"
+  }]},
+  "bundles":[{
+    "name":"sun.text.resources.cldr.FormatData",
+    "locales":["en", "en-US", "und"]
+  }, {
+    "name":"sun.util.resources.cldr.CalendarData",
+    "locales":["und"]
+  }, {
+    "name":"sun.util.resources.cldr.TimeZoneNames",
+    "locales":["en", "en-US", "und"]
+  }]
+}

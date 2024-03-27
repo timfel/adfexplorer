@@ -1,0 +1,100 @@
+[
+{
+  "name":"[Lcom.sun.management.internal.DiagnosticCommandArgumentInfo;"
+},
+{
+  "name":"[Lcom.sun.management.internal.DiagnosticCommandInfo;"
+},
+{
+  "name":"com.sun.management.internal.DiagnosticCommandArgumentInfo",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","boolean","boolean","boolean","int"] }]
+},
+{
+  "name":"com.sun.management.internal.DiagnosticCommandInfo",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","boolean","java.util.List"] }]
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Throwable",
+  "methods":[{"name":"addSuppressed","parameterTypes":["java.lang.Throwable"] }]
+},
+{
+  "name":"java.util.Arrays",
+  "methods":[{"name":"asList","parameterTypes":["java.lang.Object[]"] }]
+},
+{
+  "name":"org.eclipse.swt.dnd.DropTarget",
+  "methods":[{"name":"Drag_Data_Received","parameterTypes":["long","long","long","long","long","long","long"] }, {"name":"Drag_Drop","parameterTypes":["long","long","long","long","long"] }, {"name":"Drag_Leave","parameterTypes":["long","long","long"] }, {"name":"Drag_Motion","parameterTypes":["long","long","long","long","long"] }]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GTypeInfo",
+  "fields":[{"name":"base_finalize"}, {"name":"base_init"}, {"name":"class_data"}, {"name":"class_finalize"}, {"name":"class_init"}, {"name":"class_size"}, {"name":"instance_init"}, {"name":"instance_size"}, {"name":"n_preallocs"}, {"name":"value_table"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GdkKeymapKey",
+  "fields":[{"name":"group"}, {"name":"keycode"}, {"name":"level"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GdkRGBA",
+  "fields":[{"name":"alpha"}, {"name":"blue"}, {"name":"green"}, {"name":"red"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GdkRectangle",
+  "fields":[{"name":"height"}, {"name":"width"}, {"name":"x"}, {"name":"y"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GtkAllocation",
+  "fields":[{"name":"height"}, {"name":"width"}, {"name":"x"}, {"name":"y"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GtkBorder",
+  "fields":[{"name":"bottom"}, {"name":"left"}, {"name":"right"}, {"name":"top"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk.GtkRequisition",
+  "fields":[{"name":"height"}, {"name":"width"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEvent",
+  "fields":[{"name":"type"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEventCrossing",
+  "fields":[{"name":"detail"}, {"name":"focus"}, {"name":"mode"}, {"name":"send_event"}, {"name":"state"}, {"name":"subwindow"}, {"name":"time"}, {"name":"window"}, {"name":"x"}, {"name":"x_root"}, {"name":"y"}, {"name":"y_root"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEventFocus",
+  "fields":[{"name":"in"}, {"name":"send_event"}, {"name":"window"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEventKey",
+  "fields":[{"name":"group"}, {"name":"hardware_keycode"}, {"name":"is_modifier"}, {"name":"keyval"}, {"name":"length"}, {"name":"send_event"}, {"name":"state"}, {"name":"string"}, {"name":"time"}, {"name":"window"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEventMotion",
+  "fields":[{"name":"axes"}, {"name":"device"}, {"name":"is_hint"}, {"name":"send_event"}, {"name":"state"}, {"name":"time"}, {"name":"window"}, {"name":"x"}, {"name":"x_root"}, {"name":"y"}, {"name":"y_root"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GdkEventWindowState",
+  "fields":[{"name":"changed_mask"}, {"name":"new_window_state"}, {"name":"send_event"}, {"name":"window"}]
+},
+{
+  "name":"org.eclipse.swt.internal.gtk3.GtkTargetEntry",
+  "fields":[{"name":"flags"}, {"name":"info"}, {"name":"target"}]
+},
+{
+  "name":"org.eclipse.swt.widgets.Control",
+  "methods":[{"name":"gestureBeginProc","parameterTypes":["long","long","long"] }, {"name":"gestureEndProc","parameterTypes":["long","long","long"] }, {"name":"magnifyProc","parameterTypes":["long","double","long"] }, {"name":"rotateProc","parameterTypes":["long","double","double","long"] }, {"name":"swipeProc","parameterTypes":["long","double","double","long"] }]
+},
+{
+  "name":"org.eclipse.swt.widgets.Display",
+  "methods":[{"name":"allChildrenProc","parameterTypes":["long","long"] }, {"name":"caretProc","parameterTypes":["long"] }, {"name":"cellDataProc","parameterTypes":["long","long","long","long","long"] }, {"name":"changeValue","parameterTypes":["long","int","double","long"] }, {"name":"checkIfEventProc","parameterTypes":["long","long","long"] }, {"name":"emissionProc","parameterTypes":["long","long","long","long"] }, {"name":"eventProc","parameterTypes":["long","long"] }, {"name":"idleProc","parameterTypes":["long"] }, {"name":"keysChangedProc","parameterTypes":["long","long"] }, {"name":"mouseHoverProc","parameterTypes":["long"] }, {"name":"notifyProc","parameterTypes":["long","long","long"] }, {"name":"rendererClassInitProc","parameterTypes":["long","long"] }, {"name":"rendererGetPreferredWidthProc","parameterTypes":["long","long","long","long"] }, {"name":"rendererRenderProc","parameterTypes":["long","long","long","long","long","long"] }, {"name":"setDirectionProc","parameterTypes":["long","long"] }, {"name":"shellMapProc","parameterTypes":["long","long","long"] }, {"name":"signalProc","parameterTypes":["long","long","long"] }, {"name":"sizeAllocateProc","parameterTypes":["long","long","long"] }, {"name":"sizeRequestProc","parameterTypes":["long","long","long"] }, {"name":"timerProc","parameterTypes":["long"] }, {"name":"windowProc","parameterTypes":["long","long"] }, {"name":"windowProc","parameterTypes":["long","long","long"] }, {"name":"windowProc","parameterTypes":["long","long","long","long"] }, {"name":"windowProc","parameterTypes":["long","long","long","long","long"] }, {"name":"windowTimerProc","parameterTypes":["long"] }]
+},
+{
+  "name":"sun.management.VMManagementImpl",
+  "fields":[{"name":"compTimeMonitoringSupport"}, {"name":"currentThreadCpuTimeSupport"}, {"name":"objectMonitorUsageSupport"}, {"name":"otherThreadCpuTimeSupport"}, {"name":"remoteDiagnosticCommandsSupport"}, {"name":"synchronizerUsageSupport"}, {"name":"threadAllocatedMemorySupport"}, {"name":"threadContentionMonitoringSupport"}]
+}
+]
